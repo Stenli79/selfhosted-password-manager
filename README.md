@@ -129,6 +129,21 @@ installed (no web server needed) and run it against a copy of `vault.db`.
 - **History** — full audit log of login/unlock attempts, filterable by
   target and event, with live lockout status.
 
+## Screenshots
+
+![Dashboard](screenshots/dashboard.png)
+*Dashboard — vault status, quick unlock, and recent activity.*
+
+![Vault list](screenshots/vault-list.png)
+*Vault — entry cards with copy-to-clipboard and reveal-on-hold.*
+
+<p align="center">
+  <img src="screenshots/login-screen.png" width="30%" alt="Login screen">
+  <img src="screenshots/vault-setup.png" width="30%" alt="Vault password setup">
+  <img src="screenshots/create-vault.png" width="30%" alt="Add a vault entry">
+</p>
+<p align="center"><sub>Login &nbsp;·&nbsp; Vault setup &nbsp;·&nbsp; Add entry</sub></p>
+
 ## Deployment notes
 
 - The included `db/.htaccess` (`Deny from all`) only takes effect on Apache
